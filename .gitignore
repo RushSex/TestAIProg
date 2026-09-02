@@ -1,5 +1,50 @@
-node_modules/
+```
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unityproj
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.meta
+*.log
+*.unitypackage
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.exe.meta
+*.dll.meta
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```node_modules/
 .next/
 dist/
 build/
-*.log

@@ -4,47 +4,343 @@ Library/
 Temp/
 Obj/
 Build/
-Builds/
+Logs/
+MemoryCaptures/
 *.unityproj
 *.sln
-*.csproj
 *.user
 *.userprefs
 *.pidb
 *.booproj
 *.svd
+*.cache
 *.meta
-*.log
-*.unitypackage
+!*.cs.meta
+!*.js.meta
+!*.boo.meta
+!*.cginc.meta
+!*.asset.meta
+!*.prefab.meta
+!*.unity.meta
+!*.anim.meta
+!*.controller.meta
+!*.mat.meta
+!*.shader.meta
+!*.physicMaterial.meta
+!*.physicsMaterial2D.meta
+!*.prefab.meta
+!*.mask.meta
+!*.overrideController.meta
+!*.spriteatlas.meta
+!*.guiskin.meta
+!*.fontsettings.meta
+!*.giparams.meta
+!*.psd.meta
+!*.ai.meta
+!*.tif.meta
+!*.tiff.meta
+!*.png.meta
+!*.jpg.meta
+!*.jpeg.meta
+!*.gif.meta
+!*.bmp.meta
+!*.tga.meta
+!*.exr.meta
+!*.hdr.meta
+!*.ico.meta
+!*.svg.meta
+!*.cur.meta
+!*.ani.meta
+!*.fbx.meta
+!*.dae.meta
+!*.3ds.meta
+!*.obj.meta
+!*.blend.meta
+!*.max.meta
+!*.mb.meta
+!*.ma.meta
+!*.c4d.meta
+!*.scn.meta
+!*.ase.meta
+!*.ttf.meta
+!*.otf.meta
+!*.dfont.meta
+!*.txt.meta
+!*.xml.meta
+!*.json.meta
+!*.csv.meta
+!*.bytes.meta
+!*.wav.meta
+!*.mp3.meta
+!*.ogg.meta
+!*.aif.meta
+!*.aiff.meta
+!*.mod.meta
+!*.it.meta
+!*.s3m.meta
+!*.xm.meta
+!*.flac.meta
+!*.mp4.meta
+!*.avi.meta
+!*.mov.meta
+!*.wmv.meta
+!*.webm.meta
+!*.ogv.meta
+!*.oga.meta
+!*.opus.meta
+!*.pdf.meta
+!*.doc.meta
+!*.docx.meta
+!*.xls.meta
+!*.xlsx.meta
+!*.ppt.meta
+!*.pptx.meta
+!*.rtf.meta
+!*.md.meta
+!*.markdown.meta
+!*.url.meta
+!*.bat.meta
+!*.cmd.meta
+!*.sh.meta
+!*.exe.meta
+!*.dll.meta
+!*.so.meta
+!*.dylib.meta
+!*.bundle.meta
+!*.a.meta
+!*.lib.meta
+!*.jar.meta
+!*.apk.meta
+!*.app.meta
+!*.ipa.meta
+!*.unitypackage.meta
+!*.nupkg.meta
+!*.snupkg.meta
+!*.lock.meta
+!*.config.meta
+!*.editorconfig.meta
+!*.gitattributes.meta
+!*.gitignore.meta
+!*.gitmodules.meta
+!*.prettierrc.meta
+!*.eslintrc.meta
+!*.babelrc.meta
+!*.dockerignore.meta
+!*.npmignore.meta
+!*.vscode.meta
+!*.idea.meta
+!*.code-workspace.meta
+!*.sln.meta
+!*.csproj.meta
+!*.vcxproj.meta
+!*.vcproj.meta
+!*.user.meta
+!*.suo.meta
+!*.userosscache.meta
+!*.sln.docstates.meta
+!*.pidb.meta
+!*.booproj.meta
+!*.svd.meta
+!*.cache.meta
+!*.asmdef.meta
+!*.rsp.meta
+!*.asmref.meta
+!*.meta.meta
 
 # Visual Studio
-.vs/
-*.VC.db
-*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
 
 # Rider
 .idea/
 
-# Compiled and build artifacts
-*.dll
-*.exe
-*.pdb
-*.mdb
-*.exe.meta
-*.dll.meta
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]ibrary/[Bb]uilds/
+[Ll]ibrary/[Cc]ache/
+[Ll]ibrary/[Ff]acebookSDK/
+[Ll]ibrary/[Pp]layServicesResolver/
+[Ll]ibrary/[Pp]rogrammingAssistant/
+[Ll]ibrary/[Ss]criptAssemblies/
+[Ll]ibrary/[Uu]serContext/
+[Ll]ibrary/[Rr]emote/
+[Ll]ibrary/[Cc]onsoleLog/
+[Ll]ibrary/[Cc]ollab/
+[Ll]ibrary/[Ff]acebook/[Cc]achedData/
+[Ll]ibrary/[Pp]ackageCache/
+[Ll]ibrary/[Pp]ackageCache/*/Documentation~/
+[Ll]ibrary/[Pp]ackageCache/*/Tests~/
+[Ll]ibrary/[Pp]ackageCache/*/Editor Tests~/
+[Ll]ibrary/[Pp]ackageCache/*/.github/
+[Ll]ibrary/[Pp]ackageCache/*/.gitlab/
+[Ll]ibrary/[Pp]ackageCache/*/.vs/
+[Ll]ibrary/[Pp]ackageCache/*/.vscode/
+[Ll]ibrary/[Pp]ackageCache/*/.idea/
+[Ll]ibrary/[Pp]ackageCache/*/.DS_Store
+[Ll]ibrary/[Pp]ackageCache/*/_ReSharper*/
+[Ll]ibrary/[Pp]ackageCache/*/Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+!.env.example
 
 # Logs
 *.log
+*.tmp
+*.temp
+*.cache
 
-# OS generated files
-.DS_Store
-Thumbs.db
-```node_modules/
-.next/
-dist/
+# Packages
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exe
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.sublime-workspace
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Build folder
 build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# C#
+*.userprefs
+*.pidb
+*.suo
+*.userosscache
+*.unityproj
+*.booproj
+*.svd
+*.cache
+*.tmp
+*.temp
+*.log
+*.sln.docstates
+*.userprefs
+
+# Netcode for GameObjects generated files
+Netcode~/Generated/
+Netcode~/AssemblyInfo/
+
+# Mobile build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# Compressed archives
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Configuration files that might contain secrets
+config.json
+*.config
+local.properties
+gradle.properties
+
+# Documentation
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Images (but not ignoring them since they're part of the project)
+# *.png
+# *.jpg
+# *.jpeg
+# *.bmp
+# *.gif
+# *.webm
+```
